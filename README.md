@@ -42,7 +42,7 @@ The system combines dense and sparse retrieval using score interpolation, follow
 1. Query embedding
 2. Hybrid score computation:
 
-   hybrid*score = alpha * dense*score + (1 - alpha) * sparse_score
+   `hybrid_score = alpha * dense_score + (1 - alpha) * sparse_score`
 
 3. Top-k retrieval
 4. Grounded prompt construction
